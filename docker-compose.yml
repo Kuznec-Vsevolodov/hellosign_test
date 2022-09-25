@@ -1,0 +1,8 @@
+version: '3'
+services:
+  test-lagann:
+    image: test-hellosign
+    container_name: test-hellosign
+    restart: always
+    ports:
+      - 80:80
